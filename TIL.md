@@ -10,3 +10,4 @@ anytime, not just during formal lessons.
 - i learned that you can loop a block of code that are repeatedly executed while conditions are met
 - i learned that about if else that you can use if you want it to have conditions.
 - i learned that i can control a flow of the system.
+- i learned about functions that you can use a block repeatedly.
