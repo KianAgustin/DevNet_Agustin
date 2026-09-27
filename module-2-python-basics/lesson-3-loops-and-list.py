@@ -1,24 +1,24 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+Student: Agustin, Kian Gabriel 
+Date: September 27, 2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+Loop is like when you want to make your code doesn't stop unless you want to exit or the condition is met.
+A list is a collection of data. unlike a simple variable, you can put many data or value in this container
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
-(add more as needed)
+list - a container with a collection of more than one data.
+for loop - a repeating code that procedes on the next line if conditions are met.
+while loop - this loop happens when a block of code value is true.
+index - this is a built in system that helps finding the position of a specific item
+iteration - a repeating execution of a block of code.
 
 
 ============================================
@@ -28,15 +28,15 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+for i in range(1, 6):
+    print(i)
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+mistake i usually make is making not sure what value i need to be outputted. i make the condition wrong.
 
 
 ============================================
