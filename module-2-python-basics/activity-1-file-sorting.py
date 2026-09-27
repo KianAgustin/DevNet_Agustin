@@ -1,24 +1,22 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: Agustin, Kian Gabriel P
+Date: September 26, 2026-
 
 ============================================
-WHAT DID YOU BUILD? (explain in your own words)
+WHAT DID YOU BUILD? 6
 ============================================
-[Paste your working script below first, then come back and explain
-it here: what does your script do, and what rule did you use to
-sort the files? e.g. by extension, by name, by date, etc.]
+the system allows to access your files and manage it based on the file type.
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
-(add more as needed)
+- os module:a built in ssystem that allows your code to access directly with the operating system
+- shutil module: collection of libraries inside python
+- file path: this is the directory where are your files located
+- directory: directory is the human readable location of a folder or file.
+3
 
 
 ============================================
@@ -30,7 +28,14 @@ Paste the code you already wrote for this activity below.
 import os
 import shutil
 
-# --- paste your existing code here ---
+
+fpath = input("Choose a Folder Path : ")
+
+if os.path.exists(fpath):
+    print("Path available!")
+else:
+    print("Sorry the path is not available :(")
+    print("All folders & files:", os.listdir())
 
 
 """
@@ -40,6 +45,7 @@ A MISTAKE I MADE (or one I want to avoid)
 [what tripped you up while building this? e.g. a path that didn't
 exist, a file that got overwritten, something that didn't work the
 way you expected at first]
+at first i was confused because i really dont know what we are gonna do. but when i get it i was able to code a little bit of the system
 
 
 ============================================
